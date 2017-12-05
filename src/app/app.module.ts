@@ -8,6 +8,10 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { VaultPage } from '../pages/vault/vault';
+import { WeaponPage } from '../pages/vault/weapon/weapon';
+import { ArmorPage } from '../pages/vault/armor/armor';
+import { WeaponDetailPage } from '../pages/vault/weapon/weapon-detail/weapon-detail';
+import { ArmorDetailPage } from '../pages/vault/armor/armor-detail/armor-detail';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -19,7 +23,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ContactPage,
     HomePage,
     TabsPage,
-    VaultPage
+    VaultPage,
+    WeaponPage,
+    ArmorPage,
+    WeaponDetailPage,
+    ArmorDetailPage,
   ],
   imports: [
     BrowserModule,
@@ -32,7 +40,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ContactPage,
     HomePage,
     TabsPage,
-    VaultPage
+    VaultPage,
+    WeaponPage,
+    ArmorPage,
+    WeaponDetailPage,
+    ArmorDetailPage,
   ],
   providers: [
     StatusBar,
@@ -41,3 +53,5 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ]
 })
 export class AppModule {}
+
+//remember to add ',' at the end of the lists, code did not run without
